@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+
+            <h1 style="text-align:center">Criptografia</h1>   
+            
+            <br>
+
+            <div class="type" align="center">
+                <select name="menuselect" id="menuselect">
+                    <option value="selecione">Selecione</option>
+                    <option value="cifra">Cifra Cesar</option>
+                    <option value="base">Base64</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div class="text1" align="center">
+                <textarea name="1" id="0" rows="5"></textarea>
+                <br>
+                <input type="radio" name="radiobutton" value="Criptografar" id="Criptografar" ></input>
+                <label for="Criptografar">Criptografar</label>
+                <input type="radio" name="radiobutton" value="Descriptografar" id="Descriptografar" ></input>
+                <label for="Descriptografar">Descriptografar</label>
+            </div>
+
+            <br>
+
+            <div style="text-align:center">
+                <input type="number" id="passo"></input>
+            </div>
+
+            <br>
+            <br>
+
+            <div align="center">
+                <input type="button" id="button" value="codificar decodificar"></input>
+            </div>
+
+            <br>
+            <br>
+
+            <div align="center">
+                    <p id="resultado"></p>
+            </div>
+
+            <br>
+            <br>
+
+    </table>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
